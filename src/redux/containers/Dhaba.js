@@ -8,7 +8,7 @@ export default function Dhaba() {
 
             </div>
             <div>
-            Number of Idli available: ${idliCount}
+            Number of aIdli available: ${idliCount}
             </div>
         </div>
     )
