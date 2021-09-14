@@ -6,6 +6,7 @@ export const buyIdli = text => ({
   type: 'BUY_IDLI',
 })
 
+buy
 // export const setVisibilityFilter = filter => ({
 //   type: 'SET_VISIBILITY_FILTER',
 //   filter

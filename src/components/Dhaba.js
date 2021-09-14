@@ -4,11 +4,11 @@ export default function Dhaba() {
     return (
         <div>
             <div>
-            Number of Dosas available : ${dosaCount}
+            `Number of Dosas available : ${dosaCount}`
 
             </div>
             <div>
-            Number of aIdli available: ${idliCount}
+            `Number of Idli available: ${idliCount}`
             </div>
         </div>
     )
