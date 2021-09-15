@@ -1,3 +1,4 @@
+import {BUY_DOSA } from '../actions/restaurantActions'
 const initalState ={
     dosaCount: 10,
     idliCount: 10,

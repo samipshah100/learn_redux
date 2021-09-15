@@ -1,6 +1,6 @@
 // action creators
-const BUY_DOSA = 'BUY_DOSA'
-const BUY_IDLI = 'BUY_IDLI'
+export const BUY_DOSA = 'BUY_DOSA'
+export const BUY_IDLI = 'BUY_IDLI'
 
 // actions
 export const buyDosa = text => ({
