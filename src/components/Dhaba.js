@@ -40,7 +40,8 @@ export default function Dhaba() {
 
             </p>
 
-            <button onClick = {handleBuyDosa}>Buy Dosa</button>
+            <button onClick = {handleBuyDosa}>Buy Dosa</button><br/>
+            {/* <button onClick = {handleBuyIdli}>Buy Idli</button><br/> */}
         </p>
  </div>   )
 }
