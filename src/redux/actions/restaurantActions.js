@@ -1,15 +1,16 @@
-// action creators
-export const BUY_DOSA = 'BUY_DOSA'
-export const BUY_IDLI = 'BUY_IDLI'
+// action types
+export const BUY_DOSA = "BUY_DOSA";
+export const BUY_IDLI = "BUY_IDLI";
 
-// actions
-export const buyDosa = text => ({
+// actions creator (function)
+export const buyDosa = () => ({
   type: BUY_DOSA,
-})
-export const buyIdli = text => ({
-  type: BUY_IDLI,
-})
+});
 
+// action create= function
+export const buyIdli = () => ({
+  type: BUY_IDLI
+});
 
 // part 1: buy dosa
 // part 2: buy shirt with custom requirements\\

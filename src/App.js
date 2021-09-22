@@ -12,8 +12,10 @@ function App() {
       <div className="App">{/* <Dhaba/> */}</div>
       <Switch>
         <Route exact path="/">
+          <Dhaba/>
           {/* <FeedPage /> */}
-          <ClassFeedPage name='john'/>
+          {/* <ClassFeedPage name='john'/> */}
+
         </Route>
         <Route exact path="/about">
           <AboutUsPage />
